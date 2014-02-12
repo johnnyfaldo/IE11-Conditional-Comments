@@ -1,4 +1,4 @@
-conditionizr
+Conditionizr
 ============
 
 IE11 Compatibily Mode CSS Conditional Comments Improvisor -  for testing older versions of IE in IE11
