@@ -1,6 +1,7 @@
 /*
- * Conditionizr - IE11 Compatibily Mode Conditional CSS Improvisor 
+ * Conditionizr - Compatibily Mode Conditional CSS Improvisor for testing crappy versions of IE in IE 11
  * Author: John Faldo
+ * johnfaldo@gmail.com
  * 
  */
 
