@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>IE11 Dev Compatibility Mode Conditional CSS Files</title>
+		<style>
+			body {padding-top:120px;}
+			.box {
+				background:#FF0000;
+				width:100px;
+				height:100px;
+				margin:0 auto;
+				
+			}
+		</style>
+		<script src="js/conditionizr.js"></script>
+		<script>
+			Conditionizr.settings({
+				base:'',
+				rules: {
+					'lte': {
+						version:    8,
+						stylesheet: 'ie7.css',
+						media: 'screen'
+					}
+				}
+			});
+		</script>
+		
+	</head>
+	<body>
+		<div class="box">
+			
+		</div>
+	</body>
+</html>
